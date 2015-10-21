@@ -13,7 +13,11 @@
 		912B07521BD707CA00AB76A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912B07501BD707CA00AB76A9 /* LaunchScreen.storyboard */; };
 		912B075D1BD707CA00AB76A9 /* spotappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B075C1BD707CA00AB76A9 /* spotappTests.swift */; };
 		912B07681BD707CA00AB76A9 /* spotappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B07671BD707CA00AB76A9 /* spotappUITests.swift */; };
-		912B07761BD7117700AB76A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B07751BD7117700AB76A9 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		912B07761BD7117700AB76A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B07751BD7117700AB76A9 /* LoginViewController.swift */; };
+		B5C94F4F1BD7C0A400B112B6 /* CreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C94F4E1BD7C0A400B112B6 /* CreateAccountController.swift */; };
+		B5C94F531BD7DC9F00B112B6 /* TabAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C94F521BD7DC9F00B112B6 /* TabAccountController.swift */; };
+		B5C94F551BD7DCDD00B112B6 /* TabLogInController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C94F541BD7DCDD00B112B6 /* TabLogInController.swift */; };
+		B5C94F571BD7DD0200B112B6 /* TabCreateAccountController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5C94F561BD7DD0200B112B6 /* TabCreateAccountController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		912B07671BD707CA00AB76A9 /* spotappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotappUITests.swift; sourceTree = "<group>"; };
 		912B07691BD707CA00AB76A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		912B07751BD7117700AB76A9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B5C94F4E1BD7C0A400B112B6 /* CreateAccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountController.swift; sourceTree = "<group>"; };
+		B5C94F521BD7DC9F00B112B6 /* TabAccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TabAccountController.swift; path = ../TabAccountController.swift; sourceTree = "<group>"; };
+		B5C94F541BD7DCDD00B112B6 /* TabLogInController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabLogInController.swift; sourceTree = "<group>"; };
+		B5C94F561BD7DD0200B112B6 /* TabCreateAccountController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabCreateAccountController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +105,12 @@
 		912B07461BD707CA00AB76A9 /* spotapp */ = {
 			isa = PBXGroup;
 			children = (
+				B5C94F521BD7DC9F00B112B6 /* TabAccountController.swift */,
 				912B07471BD707CA00AB76A9 /* AppDelegate.swift */,
 				912B074B1BD707CA00AB76A9 /* Main.storyboard */,
+				B5C94F561BD7DD0200B112B6 /* TabCreateAccountController.swift */,
+				B5C94F541BD7DCDD00B112B6 /* TabLogInController.swift */,
+				B5C94F4E1BD7C0A400B112B6 /* CreateAccountController.swift */,
 				912B07751BD7117700AB76A9 /* LoginViewController.swift */,
 				912B074E1BD707CA00AB76A9 /* Assets.xcassets */,
 				912B07501BD707CA00AB76A9 /* LaunchScreen.storyboard */,
@@ -255,8 +267,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5C94F571BD7DD0200B112B6 /* TabCreateAccountController.swift in Sources */,
+				B5C94F4F1BD7C0A400B112B6 /* CreateAccountController.swift in Sources */,
+				B5C94F531BD7DC9F00B112B6 /* TabAccountController.swift in Sources */,
 				912B07761BD7117700AB76A9 /* LoginViewController.swift in Sources */,
-				912B074A1BD707CA00AB76A9 /* ViewController.swift in Sources */,
+				B5C94F551BD7DCDD00B112B6 /* TabLogInController.swift in Sources */,
 				912B07481BD707CA00AB76A9 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

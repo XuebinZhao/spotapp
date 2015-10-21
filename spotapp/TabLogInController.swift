@@ -1,5 +1,5 @@
 //
-//  CreateAccountController.swift
+//  TabLogInController.swift
 //  spotapp
 //
 //  Created by Ammar Karim on 10/21/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class CreateAccountController: UIViewController {
+class TabLogInController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
