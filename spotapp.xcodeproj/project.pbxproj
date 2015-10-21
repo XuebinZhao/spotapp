@@ -14,6 +14,7 @@
 		912B07521BD707CA00AB76A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912B07501BD707CA00AB76A9 /* LaunchScreen.storyboard */; };
 		912B075D1BD707CA00AB76A9 /* spotappTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B075C1BD707CA00AB76A9 /* spotappTests.swift */; };
 		912B07681BD707CA00AB76A9 /* spotappUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B07671BD707CA00AB76A9 /* spotappUITests.swift */; };
+		912B07761BD7117700AB76A9 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B07751BD7117700AB76A9 /* LoginViewController.swift */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +48,7 @@
 		912B07631BD707CA00AB76A9 /* spotappUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = spotappUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		912B07671BD707CA00AB76A9 /* spotappUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = spotappUITests.swift; sourceTree = "<group>"; };
 		912B07691BD707CA00AB76A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		912B07751BD7117700AB76A9 /* LoginViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				912B07471BD707CA00AB76A9 /* AppDelegate.swift */,
 				912B07491BD707CA00AB76A9 /* ViewController.swift */,
 				912B074B1BD707CA00AB76A9 /* Main.storyboard */,
+				912B07751BD7117700AB76A9 /* LoginViewController.swift */,
 				912B074E1BD707CA00AB76A9 /* Assets.xcassets */,
 				912B07501BD707CA00AB76A9 /* LaunchScreen.storyboard */,
 				912B07531BD707CA00AB76A9 /* Info.plist */,
@@ -255,6 +258,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				912B07761BD7117700AB76A9 /* LoginViewController.swift in Sources */,
 				912B074A1BD707CA00AB76A9 /* ViewController.swift in Sources */,
 				912B07481BD707CA00AB76A9 /* AppDelegate.swift in Sources */,
 			);
@@ -397,6 +401,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = spotapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamspot.spotapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -408,6 +413,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = spotapp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.teamspot.spotapp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
