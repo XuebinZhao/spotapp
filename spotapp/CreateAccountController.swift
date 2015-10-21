@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  CreateAccountController.swift
 //  spotapp
 //
 //  Created by Ammar Karim on 10/20/15.
@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class CreateAccountController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()

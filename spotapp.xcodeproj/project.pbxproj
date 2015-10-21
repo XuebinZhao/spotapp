@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		912B07481BD707CA00AB76A9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B07471BD707CA00AB76A9 /* AppDelegate.swift */; };
-		912B074A1BD707CA00AB76A9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 912B07491BD707CA00AB76A9 /* ViewController.swift */; };
 		912B074D1BD707CA00AB76A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912B074B1BD707CA00AB76A9 /* Main.storyboard */; };
 		912B074F1BD707CA00AB76A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 912B074E1BD707CA00AB76A9 /* Assets.xcassets */; };
 		912B07521BD707CA00AB76A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 912B07501BD707CA00AB76A9 /* LaunchScreen.storyboard */; };
@@ -37,7 +36,6 @@
 /* Begin PBXFileReference section */
 		912B07441BD707CA00AB76A9 /* spotapp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = spotapp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		912B07471BD707CA00AB76A9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		912B07491BD707CA00AB76A9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		912B074C1BD707CA00AB76A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		912B074E1BD707CA00AB76A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		912B07511BD707CA00AB76A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -100,7 +98,6 @@
 			isa = PBXGroup;
 			children = (
 				912B07471BD707CA00AB76A9 /* AppDelegate.swift */,
-				912B07491BD707CA00AB76A9 /* ViewController.swift */,
 				912B074B1BD707CA00AB76A9 /* Main.storyboard */,
 				912B07751BD7117700AB76A9 /* LoginViewController.swift */,
 				912B074E1BD707CA00AB76A9 /* Assets.xcassets */,
@@ -487,6 +484,7 @@
 				912B076E1BD707CA00AB76A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		912B076F1BD707CA00AB76A9 /* Build configuration list for PBXNativeTarget "spotappTests" */ = {
 			isa = XCConfigurationList;
@@ -495,6 +493,7 @@
 				912B07711BD707CA00AB76A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		912B07721BD707CA00AB76A9 /* Build configuration list for PBXNativeTarget "spotappUITests" */ = {
 			isa = XCConfigurationList;
@@ -503,6 +502,7 @@
 				912B07741BD707CA00AB76A9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
